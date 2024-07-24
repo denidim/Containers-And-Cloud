@@ -1,0 +1,127 @@
+[node1] (local) root@192.168.0.18 /tmp
+$ history
+    1  whoami
+    2  uname -a
+    3  cat /etc/os-release
+    4  top
+    5  cat /proc/
+    6  cat /proc/cpuinfo
+    7  top -d 5 -n 5
+    8  pwd
+    9  ls
+   10  ls -al
+   11  ls -a
+   12  ls =al /
+   13  ls -al /
+   14  cd /etc
+   15  pwd
+   16  ls os*
+   17  cat os-releas
+   18  cat os-release 
+   19  hostname
+   20  cd
+   21  pwd
+   22  cat /etc/hostname
+   23  cat etc/machine-info
+   24  cat /etc/machine-info
+   25  cat /etc/hostname softuni.lsa.lab
+   26  cat etc/machine-info
+   27  cat etc/machine-info PRETTY_HOSTNAME="SoftUni Lab Server"
+   28  logout
+   29  history
+   30  date
+   31  date +%Y-%m-%d
+   32  cal -3
+   33  uptime
+   34  exit
+   35  Logout
+   36  ls -a
+   37  cat .bash_history 
+   38  history
+   39   cd /tmp
+   40  ls -la
+   41  mkdir directory1
+   42  ls -la
+   43  mkdir -p directory2/directory3
+   44  ls -al
+   45  cd directory2
+   46  ls -la
+   47  cd ..
+   48  touch file1.txt
+   49  ls -la
+   50  cp file1.txt directory1
+   51  ls -la
+   52  cd directory1
+   53  ls -la
+   54  cd ..
+   55  ls -la
+   56  mv file1.txt doirectory2
+   57  ls -la
+   58  rmv doirectory2 
+   59  rm doirectory2 
+   60  ls -la
+   61  touch file1
+   62  ls -la
+   63  mv file1 directory2
+   64  ls -la
+   65  cd directory2
+   66  ls -la
+   67  rm file1 
+   68  ls -la
+   69  cd ..
+   70  mv directory2 directory1
+   71  ls -la
+   72  cd directory1/
+   73  ls -la
+   74  cd directory2/
+   75  ls -la
+   76  cd directory3/
+   77  ls -la
+   78  pwd
+   79  clear
+   80  cd /tmp
+   81  pwd
+   82  touch demo 
+   83  ls -la
+   84  vi demo
+   85  cat demo 
+   86  mv demo demo.txt
+   87  ls -la
+   88  echo demo.txt 
+   89  cat demo.txt 
+   90  head -n2 demo.txt 
+   91  tail -n2 demo.txt 
+   92  ls la
+   93  ls -la
+   94  nano demo.txt 
+   95  apk add nano
+   96  nano demo.txt 
+   97  cat demo.txt 
+   98  history
+   99  clear
+  100  echo Hello
+  101  cat Hello
+  102  echo $?
+  103  echo Hello
+  104  echo $?
+  105  cat demo.txt 
+  106  echo $?
+  107  echo Hello > cmdLog.txt
+  108  ls -la
+  109  cat cmdLog.txt 
+  110  echo Hello 1> cmdLog.txt
+  111  cat cmdLog.txt 
+  112  echo AppendThisToHello >> cmdLog.txt 
+  113  cat cmdLog.txt 
+  114  cat < cmdLog.txt 
+  115  history
+  116  ls -al
+  117  cat wrongFile.txt 2> cmdLog.txt 
+  118  cat cmdLog.txt 
+  119  cat AAAAA.txt > cmdLog.txt 2>$1
+  120  cat AAAAA.txt > cmdLog.txt 2>&1
+  121  cat cmdLog.txt 
+  122  echo cmdLog.txt 
+  123  cat cmdLog.txt 
+  124  nano cmdLog.txt 
+  125  history
