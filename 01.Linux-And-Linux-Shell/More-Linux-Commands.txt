@@ -1,0 +1,22 @@
+[node1] (local) root@192.168.0.8 ~
+$ history 
+    1  ls non-existing-file.txt
+    2  cho OK
+    3  echo OK
+    4  ls non-existing-file.txt; echo OK
+    5  > file1.txt
+    6  ls file1.txt 
+    7  stats file1.txt ; echo "Hello DevOps"
+    8  stat file1.txt ; echo "Hello DevOps"
+    9  > pipe.txt
+   10  vi pipe.txt 
+   11  cat pipe.txt 
+   12  cat pipe.txt | sort 
+   13  cat pipe.txt | sort | head -n 3
+   14  cat pipe.txt | sort | tail -n 3
+   15  cat wrong.txt | cat pipe.txt | tail -n 3
+   16  ls file1.txt && echo OK
+   17  ls file11.txt && echo OK
+   18  ls file11.txt ||  echo OK
+   19  ls file1.txt ||  echo OK
+   20  history
