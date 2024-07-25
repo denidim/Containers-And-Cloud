@@ -20,3 +20,168 @@ $ history
    18  ls file11.txt ||  echo OK
    19  ls file1.txt ||  echo OK
    20  history
+
+[node1] (local) root@192.168.0.18 /tmp
+$ history
+    1  cd /tmp
+    2  history
+    3  adduser dimo
+    4  history
+    5  adduser student
+    6  history
+    7  su dimo
+    8  su student
+    9  su dimo
+   10  su student
+   11  history
+   12  whoami
+   13  date
+   14  echo "date" > script.sh
+   15  ls -la
+   16  cd ..
+   17  cd /tmp/
+   18  chmod +x script.sh 
+   19  ls -la
+   20  chmod -x script.sh 
+   21  ls -la
+   22  chmod +x script.sh
+   23  ls -la
+   24  chmod -x script.sh 
+   25  ls -la
+   26  chmod 755 script.sh 
+   27  ls -la
+   28  ./script.sh 
+   29  cat script.sh 
+   30  mkdir test
+   31  ls -la
+   32  chmod 777 test
+   33  ls -la
+   34  > file2.txt
+   35  whoami
+   36  ls -la
+   37  chown dimo file.2.txt
+   38  chown dimo file2.txt
+   39  ls -la
+   40  chgrp dimo file2.txt 
+   41  ls -la
+   42  > file3.txt
+   43  ls -la
+   44  chown dimo.dimo file3.txt 
+   45  ls -la
+   46  su dimo
+   47  cat dimo.txt 
+   48  su student 
+   49  cat ~/.bash_history
+   50  grep -i 'COMMAND' /var/log/auth.log | awk '{print $2}
+
+   51  grep -e "$pattern" /home/*/.bash_history
+   52  history
+   53  chmod 007 dimo.txt 
+   54  su student
+   55  > aaa.txt
+   56  ls -la
+   57  chmod +u rwx aaa.txt 
+   58  ls -la
+   59  chmod +a rwe aaa.txt 
+   60  chmod u+rwx aaa.txt 
+   61* 
+   62  chmod g+rwx aaa.txt 
+   63  ls -la
+   64  chmod a+rwx aaa.txt 
+   65  ls -la
+   66  chmod a-rwx aaa.txt 
+   67  ls -la
+   68  chown --help
+   69  chown -v dimo aaa.txt 
+   70  echo "chown -v student aaa.txt" > script1.sh
+   71  cat script1.sh 
+   72  ls -al
+   73  chmod 744 script1.sh 
+   74  ls -al
+   75  ./script1.sh 
+   76  ls -la
+   77  vi script1.sh 
+   78  ./script1.sh 
+   79  cat script1.sh 
+   80  vi script1.sh 
+   81  ./script1.sh 
+   82  chmod 770 tmp
+   83  cd ..
+   84  chmod 770 tmp
+   85  ls -la
+   86  sudo su student
+   87  sudo su dimo
+   88  apk add sudo
+   89  su dimo
+   90  env
+   91  echo $DOCKER_VERSION
+   92  AUTHOR=DIMO
+   93  echo ${AUTHOR}
+   94  > name.txt
+   95  vi name.txt 
+   96  ls -la
+   97  chmod 777 name.txt 
+   98  ls -la
+   99  ./name.txt 
+  100  vi name.txt 
+  101  ./name.txt 
+  102  cat name.txt 
+  103  $MYNAME=Dimo
+  104  MYNAME=Dimo
+  105  echo $MYNAME 
+  106  export MYNAME=Dimo
+  107  ./name.txt 
+  108  export MY_NAME=DIMO
+  109  ./name.txt 
+  110  cd /tmp/
+  111  cat script1.sh 
+  112  cat file1.txt 
+  113  top
+  114  sleep 10 ; echo OK
+  115  sleep 10 ; echo OK
+  116  sleep 10 &
+  117  top
+  118  jobs
+  119  sleep 10 &
+  120  jobs
+  121  jobs
+  122  jobs
+  123  jobs
+  124  jobs
+  125  ps
+  126  ps
+  127  ps
+  128  history
+  
+ DIMO=> 
+ [node1] (local) dimo@192.168.0.18 /
+$ history
+    1  whoami
+    2  history
+    3  echo "Hello" > file1.txt
+    4  ls -la
+    5  su student
+    6  exit
+    7  whoami
+    8  ls -la
+    9  chmode 646 file1.txt 
+   10  chmod 646 file1.txt 
+   11  ls -la
+   12  history
+   13  exit
+   14  whoami
+   15  echo "Hello" >  dimo.txt
+   16  ls -la
+   17  cat dimo.txt 
+   18  chmod 000 dimo.txt 
+   19  ls -la
+   20  cat dimo.txt 
+   21  exit
+   22  su student
+   23  su root
+   24  exit
+   25  su student
+   26  sudo su student
+   27  exit
+   28  whoami
+   29  history
