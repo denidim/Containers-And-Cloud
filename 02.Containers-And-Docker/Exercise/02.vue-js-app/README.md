@@ -2,7 +2,14 @@
 
 > A Vue.js App in Container
 
-## Build Setup
+## Docker commands
+
+``` bash
+# runn app from the container
+docker run -d -p 9081:8080 -v %cd%:/app -w /app node:20 npm run serve
+```
+
+### Build Setup
 
 ``` bash
 # install dependencies
