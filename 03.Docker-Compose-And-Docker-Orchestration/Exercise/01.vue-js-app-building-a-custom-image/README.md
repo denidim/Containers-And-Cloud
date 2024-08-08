@@ -1,12 +1,21 @@
-# 02.vue-js-app
+# 01.vue-js-app-bulding-a-custom-image
 
-> A Vue.js App in Container
+> A Vue.js App: Bulding A Custom Image
 
 ## Docker commands
 
 ``` bash
-# runn app from the container
-docker run -d -p 9081:8080 -v %cd%:/app -w /app node:20 npm run serve
+# build image
+docker build -t vueapp .
+# run image
+docker run -d -p 8080:8080 vueapp
+# inspect image
+docker inspect vueapp
+# change tag and add version
+docker tag yourDockerHubName/vueapp:1.0
+# login and push to docker hub
+docker login
+docker push yourDockerHubName/vueapp:1.0
 ```
 
 ### Build Setup
