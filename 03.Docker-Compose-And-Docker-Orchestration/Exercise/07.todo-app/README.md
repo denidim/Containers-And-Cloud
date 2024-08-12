@@ -1,8 +1,10 @@
 # 07.TODO App
 
-> TODO app (provided in the resources) is a simple app for adding tasks, which you should Dockerize: 
+> TODO app (provided in the resources) is a simple app for adding tasks, which you should Dockerize
 
 >It is a React application with a NodeJS backend and a MongoDB database. You should create the separate Docker containers and connect them in two networks as shown below to make the three containers work together
+
+![alt text](<Screenshot 2024-08-12 192302.png>)
 
 ### Requirements 
 
