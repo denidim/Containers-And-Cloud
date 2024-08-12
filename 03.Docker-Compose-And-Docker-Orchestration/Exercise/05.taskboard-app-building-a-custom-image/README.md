@@ -19,7 +19,7 @@ docker tag taskboard your-docker-hub-name/taskboard
 docker push your-docker-hub-name/taskboard
 ``` 
 
-# 07.TaskBoard App: Connect Containers in a Network
+# 5.1.TaskBoard App: Connect Containers in a Network
 
 >In this task, we will connect the TaskBoard ASP.NET 6 MVC app to its SQL Server database. They will both be in separate Docker containers, which will be connected to a common network and this will allow them to communicate with each other. 
 
@@ -74,3 +74,14 @@ docker logs web_app -f
 ```
 
 
+# 5.2.TaskBoard App: Orchestrating Containers with Docker Compose
+
+>In this task, we will make our TaskBoard app and SQL Server database containers work together with Docker Compose.
+
+>Step 1: Build a [YAML](TaskBoard-ASP.NET-App//docker-compose.yml) File
+
+>Step 2: Run the YAML File 
+```bash
+docker-compose build
+docker-compose up
+```
