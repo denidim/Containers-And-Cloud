@@ -20,7 +20,6 @@ services:
         restart: on-failure
         networks:
             - taskboard_network
-        image: denidim/taskboard 
 networks:
     taskboard_network:
         external: true
