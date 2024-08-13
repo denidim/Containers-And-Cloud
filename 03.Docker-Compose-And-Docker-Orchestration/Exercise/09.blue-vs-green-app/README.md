@@ -39,10 +39,10 @@
 
 >Use volumes for the voting and result apps and the db container 
 
-### [Vote-app: Python dockerfile](/Blue-VS-Green-App/vote/Dockerfile)
+### [Vote-app: Python dockerfile](./Blue-VS-Green-App/vote/Dockerfile)
 
-### [Worker-app: .NET dockerfile](/Blue-VS-Green-App/worker/Dockerfile)
+### [Worker-app: .NET dockerfile](./Blue-VS-Green-App/worker/Dockerfile)
 
-### [Result-app NodeJS dockerfile](/Blue-VS-Green-App/result/Dockerfile)
+### [Result-app NodeJS dockerfile](./Blue-VS-Green-App/result/Dockerfile)
 
-### [Docker-Compose file](/Blue-VS-Green-App/docker-compose.yml)
+### [Docker-Compose file](./Blue-VS-Green-App/docker-compose.yml)
