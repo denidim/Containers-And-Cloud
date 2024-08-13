@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Worker
+build_property.ProjectDir = C:\Users\fs900\Desktop\Containers-And-Cloud\03.Docker-Compose-And-Docker-Orchestration\Exercise\09.blue-vs-green-app\Blue-VS-Green-App\worker\dotnet\Worker\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
