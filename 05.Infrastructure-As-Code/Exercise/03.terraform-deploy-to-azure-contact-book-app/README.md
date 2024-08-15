@@ -2,6 +2,8 @@
 
 > You are already familiar with Azure Web Apps and now you should use Terraform to create a resource group, then create an App Service Plan and finally deploy the "Contact Book" app to Azure from a GitHub repo.
 
+[App for deploy link](https://github.com/denidim/Terraform-Deploy-To-Azure-Contact-Book-App)
+
 ``` cmd
 Id CommandLine
   -- -----------
